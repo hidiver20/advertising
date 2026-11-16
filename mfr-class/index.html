@@ -1,0 +1,684 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Myofascial Release Class | Therapeutic Connection</title>
+  <meta name="description" content="Weekly Self-Massage Class: Myofascial Release with Carolyn Silan, PT. Tuesdays 4:15 to 5:15 PM at Waikoloa Community Church, Waikoloa Village, HI. $15 a session or 4 classes for $40. Check the calendar for cancelled dates.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Weekly Myofascial Release Class in Waikoloa Village">
+  <meta property="og:description" content="Give your body the hour it keeps asking for! Tuesdays 4:15 to 5:15 PM with Carolyn Silan, PT. $15 a session or roll all month for $40.">
+  <meta name="theme-color" content="#0a7ea4">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" type="image/png" href="images/tc-mark.png">
+  <link rel="apple-touch-icon" href="images/tc-mark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #161616;
+      --muted: #555a61;
+      --line: #e9e4d8;
+      --paper: #fffcf5;
+      --card: #ffffff;
+      --sun: #f5c518;
+      --sun-deep: #f2a91c;
+      --sun-tint: #fff6d6;
+      --sea: #0a7ea4;
+      --sea-deep: #075f7c;
+      --sea-bright: #12bde8;
+      --sea-tint: #e5f6fb;
+      --stop: #c0262d;
+      --stop-tint: #fdecec;
+      --radius: 18px;
+      --shadow: 0 1px 2px rgba(22, 22, 22, .06), 0 8px 28px rgba(22, 22, 22, .07);
+      color-scheme: light;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: var(--sea-deep); }
+    .wrap { width: 100%; max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+    /* Header with the coupon-style tri-color trim */
+    .trim { height: 6px; background: linear-gradient(90deg, var(--sun) 0 33.3%, var(--sun-deep) 33.3% 66.6%, var(--sea-bright) 66.6% 100%); }
+    header.site { background: var(--card); border-bottom: 1px solid var(--line); }
+    header.site .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-top: 10px; padding-bottom: 10px; }
+    .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+    .brand img { width: 48px; height: 48px; }
+    .brand span { font-weight: 700; font-size: 15px; line-height: 1.2; }
+    .brand small { display: block; font-weight: 500; font-size: 12px; color: var(--muted); }
+    .header-actions { display: flex; align-items: center; gap: 10px; }
+    header.site .btn { white-space: nowrap; }
+    .phone { font-weight: 600; font-size: 15px; text-decoration: none; color: var(--ink); white-space: nowrap; }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      min-height: 52px; padding: 12px 22px; border-radius: 999px;
+      font: inherit; font-weight: 700; font-size: 16px; line-height: 1.2; text-decoration: none; text-align: center;
+      border: 2px solid transparent; cursor: pointer; transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+    }
+    .btn:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(22, 22, 22, .14); }
+    .btn:focus-visible, button:focus-visible, a:focus-visible { outline: 3px solid var(--sun-deep); outline-offset: 3px; }
+    .btn-sea { background: var(--sea); color: #fff; }
+    .btn-sea:hover { background: var(--sea-deep); }
+    .btn-sun { background: var(--sun); color: var(--ink); }
+    .btn-sun:hover { background: #ffd43b; }
+    .btn-small { min-height: 40px; padding: 8px 16px; font-size: 14px; }
+    .btn .price { font-weight: 800; padding-left: 8px; margin-left: 2px; border-left: 2px solid currentColor; }
+
+    /* Hero */
+    .hero { padding: 40px 0 28px; }
+    .hero .wrap { display: grid; grid-template-columns: 1.08fr .92fr; gap: 40px; align-items: center; }
+    .eyebrow { display: inline-block; font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--sea-deep); background: var(--sea-tint); padding: 6px 12px; border-radius: 999px; }
+    h1 { font-size: clamp(32px, 5vw, 50px); line-height: 1.1; font-weight: 800; letter-spacing: -.02em; margin: 16px 0 12px; }
+    .lede { font-size: 18px; color: #2c2f33; margin: 0 0 18px; max-width: 34em; }
+    .facts { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 0 0 22px; padding: 0; list-style: none; font-weight: 600; font-size: 15px; }
+    .facts li { display: flex; align-items: center; gap: 8px; }
+    .facts .when { color: var(--stop); }
+    .facts svg { flex: none; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; }
+    .hero-photo { position: relative; }
+    .hero-photo img { width: 100%; aspect-ratio: 917 / 646; object-fit: cover; border-radius: 26px; box-shadow: var(--shadow); }
+    .hero-photo::before { content: ""; position: absolute; inset: -14px 18px auto auto; width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(160deg, var(--sun), var(--sun-deep)); z-index: -1; }
+    .hero-photo figcaption { font-size: 13px; color: var(--muted); margin-top: 10px; text-align: center; }
+
+    /* Status card */
+    .status { margin-top: 26px; display: flex; gap: 14px; align-items: flex-start; padding: 16px 18px; border-radius: var(--radius); background: var(--card); border: 2px solid var(--sea-bright); box-shadow: var(--shadow); }
+    .status.is-off { border-color: var(--stop); background: #fffafa; }
+    .status-icon { flex: none; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; background: var(--sea-tint); color: var(--sea-deep); }
+    .status.is-off .status-icon { background: var(--stop-tint); color: var(--stop); }
+    .status-label { font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+    .status-main { font-size: 19px; font-weight: 700; line-height: 1.3; margin: 2px 0 2px; }
+    .status.is-off .status-main { color: var(--stop); }
+    .status-sub { font-size: 15px; color: #33373c; margin: 0; }
+    .status a { font-weight: 600; }
+
+    /* Sections */
+    section { padding: 36px 0; }
+    h2 { font-size: clamp(26px, 3.4vw, 36px); line-height: 1.15; font-weight: 800; letter-spacing: -.01em; margin: 0 0 8px; }
+    .section-intro { color: var(--muted); margin: 0 0 22px; max-width: 40em; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+
+    /* Calendar */
+    #calendar { scroll-margin-top: 16px; }
+    .cal-layout { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 22px; align-items: start; }
+    .cal-card { padding: 18px; }
+    .announcement { display: none; margin: 0 0 16px; padding: 12px 16px; border-radius: 12px; background: var(--sun-tint); border: 1px solid #f3dd8a; font-weight: 600; }
+    .announcement.show { display: block; }
+    .cal-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 12px; }
+    .cal-title, .today-btn { white-space: nowrap; }
+    .cal-title { font-size: 22px; font-weight: 800; margin: 0; }
+    .cal-nav { display: flex; gap: 6px; }
+    .icon-btn { width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--card); color: var(--ink); display: grid; place-items: center; cursor: pointer; }
+    .icon-btn:hover:not(:disabled) { background: var(--sea-tint); border-color: var(--sea-bright); }
+    .icon-btn:disabled { opacity: .35; cursor: default; }
+    .today-btn { height: 44px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; }
+    .today-btn:hover { background: var(--sea-tint); border-color: var(--sea-bright); }
+    table.month { width: 100%; border-collapse: separate; border-spacing: 6px; table-layout: fixed; margin: 0 -6px; width: calc(100% + 12px); }
+    table.month th { font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); padding: 2px 0 4px; text-align: center; }
+    table.month th.class-col { color: var(--sea-deep); }
+    table.month td { height: 92px; vertical-align: top; padding: 0; border-radius: 12px; background: #faf8f2; }
+    table.month td.empty { background: transparent; }
+    .day { width: 100%; height: 100%; min-height: 92px; display: flex; flex-direction: column; align-items: flex-start; gap: 6px; padding: 8px; border: 0; border-radius: 12px; background: transparent; font: inherit; color: inherit; text-align: left; }
+    button.day { cursor: pointer; }
+    button.day:hover { box-shadow: inset 0 0 0 2px var(--line); }
+    .num { font-size: 15px; font-weight: 600; line-height: 1; padding: 6px 0; min-width: 28px; text-align: center; border-radius: 999px; }
+    .tag { font-size: 12px; font-weight: 700; line-height: 1.25; padding: 4px 8px; border-radius: 8px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+    .tag small { display: block; font-weight: 500; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    td.is-class { background: var(--sea-tint); }
+    td.is-class .num { background: var(--sea); color: #fff; }
+    td.is-class .tag { color: var(--sea-deep); background: #fff; }
+    td.is-cancel { background: var(--stop-tint); }
+    td.is-cancel .num { color: var(--stop); text-decoration: line-through; text-decoration-thickness: 2px; }
+    td.is-cancel .tag { color: #fff; background: var(--stop); }
+    td.is-extra { background: var(--sun-tint); }
+    td.is-extra .num { background: var(--sun); color: var(--ink); }
+    td.is-extra .tag { color: var(--ink); background: #fff; }
+    td.is-today { box-shadow: inset 0 0 0 3px var(--sun-deep); }
+    td.is-past { opacity: .5; }
+    td.is-selected { box-shadow: inset 0 0 0 3px var(--ink); }
+    .today-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: #9a5d00; margin-left: auto; }
+    .day-top { display: flex; align-items: center; width: 100%; gap: 4px; }
+    .detail { margin: 12px 0 0; padding: 12px 14px; border-radius: 12px; background: #faf8f2; font-size: 15px; min-height: 48px; }
+    .detail strong { font-weight: 700; }
+    .legend { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 14px 0 0; padding: 0; list-style: none; font-size: 13px; color: var(--muted); }
+    .legend li { display: flex; align-items: center; gap: 8px; }
+    .swatch { width: 16px; height: 16px; border-radius: 5px; flex: none; }
+    .swatch.class { background: var(--sea); }
+    .swatch.cancel { background: var(--stop); }
+    .swatch.extra { background: var(--sun); }
+    .swatch.today { background: transparent; box-shadow: inset 0 0 0 3px var(--sun-deep); }
+
+    .changes { padding: 18px; }
+    .changes h3 { font-size: 18px; font-weight: 800; margin: 0 0 4px; }
+    .changes .hint { font-size: 14px; color: var(--muted); margin: 0 0 14px; }
+    .change-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+    .change-list li { display: flex; gap: 12px; align-items: center; padding: 10px 12px; border-radius: 12px; background: var(--stop-tint); }
+    .change-list li.extra { background: var(--sun-tint); }
+    .change-list li.all-clear { background: var(--sea-tint); }
+    .date-chip { flex: none; width: 52px; text-align: center; border-radius: 10px; background: #fff; padding: 4px 0; line-height: 1.1; }
+    .date-chip b { display: block; font-size: 20px; font-weight: 800; }
+    .date-chip span { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+    .change-text { font-size: 14px; line-height: 1.35; }
+    .change-text strong { display: block; font-size: 15px; }
+    .updated { font-size: 13px; color: var(--muted); margin: 14px 0 0; }
+    .book-side { margin-top: 16px; display: grid; gap: 10px; }
+    .book-side .btn { width: 100%; }
+
+    /* Details */
+    .details-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .detail-card { padding: 22px; }
+    .detail-card h3 { font-size: 18px; font-weight: 800; margin: 10px 0 6px; }
+    .detail-card p { margin: 0; color: #33373c; font-size: 16px; }
+    .bubble { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; background: var(--sun-tint); color: #8a5a00; }
+    .bubble.sea { background: var(--sea-tint); color: var(--sea-deep); }
+
+    /* Pricing */
+    .pricing { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .price-card { padding: 26px; display: flex; flex-direction: column; gap: 10px; }
+    .price-card.featured { border: 2px solid var(--sun); background: linear-gradient(180deg, #fffdf2, #fff); }
+    .price-name { font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+    .price-amount { font-size: 46px; font-weight: 800; line-height: 1; }
+    .price-amount span { font-size: 16px; font-weight: 600; color: var(--muted); }
+    .price-card p { margin: 0 0 8px; color: #33373c; }
+    .price-card .btn { margin-top: auto; }
+    .badge { align-self: flex-start; font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; background: var(--sun); color: var(--ink); }
+
+    /* Where + instructor */
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .where { padding: 24px; }
+    .where address { font-style: normal; font-size: 17px; margin: 6px 0 14px; }
+    .where dl { margin: 0 0 16px; display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; font-size: 16px; }
+    .where dt { font-weight: 700; }
+    .where dd { margin: 0; }
+    .teacher { padding: 24px; display: grid; grid-template-columns: 140px 1fr; gap: 20px; align-items: start; }
+    .teacher img { width: 140px; height: 170px; object-fit: cover; object-position: top; border-radius: 16px; }
+    .teacher h3 { font-size: 20px; font-weight: 800; margin: 0 0 2px; }
+    .teacher .creds { font-size: 13px; font-weight: 600; color: var(--sea-deep); margin: 0 0 10px; }
+    .teacher p { margin: 0; font-size: 16px; color: #33373c; }
+
+    /* Footer */
+    footer { background: #171717; color: #f2f2f2; padding: 34px 0 40px; margin-top: 24px; }
+    footer .wrap { display: grid; gap: 18px; }
+    .signoff { font-size: 22px; font-weight: 800; color: var(--sun); margin: 0; }
+    .contact { display: flex; flex-wrap: wrap; gap: 8px 22px; list-style: none; margin: 0; padding: 0; font-size: 15px; }
+    footer a { color: #fff; }
+    .disclaimer { font-size: 12.5px; font-style: italic; color: #b9b9b9; margin: 0; max-width: 60em; }
+
+    @media (max-width: 920px) {
+      .hero .wrap { grid-template-columns: 1fr; gap: 26px; }
+      .hero-photo { max-width: 560px; }
+      .hero-photo::before { display: none; }
+      .cal-layout { grid-template-columns: 1fr; }
+      .details-grid { grid-template-columns: 1fr; }
+      .two-col { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 640px) {
+      body { font-size: 16px; }
+      .hero { padding-top: 20px; }
+      .brand span { font-size: 14px; }
+      .brand small { display: none; }
+      .eyebrow { letter-spacing: .04em; font-size: 12px; }
+      .phone { display: none; }
+      .cta-row .btn { width: 100%; }
+      .pricing { grid-template-columns: 1fr; }
+      .cal-card { padding: 12px; }
+      table.month { border-spacing: 3px; margin: 0 -3px; width: calc(100% + 6px); }
+      table.month th { font-size: 11px; letter-spacing: 0; }
+      table.month td, .day { height: 56px; min-height: 56px; }
+      .day { padding: 5px 3px; align-items: center; gap: 4px; }
+      .num { font-size: 14px; min-width: 26px; padding: 5px 0; }
+      .tag { display: none; }
+      .today-label { display: none; }
+      .day::after { content: ""; width: 6px; height: 6px; border-radius: 50%; background: transparent; }
+      td.is-cancel .day::after { background: var(--stop); }
+      td.is-extra .day::after { background: var(--sun-deep); }
+      .teacher { grid-template-columns: 1fr; }
+      .teacher img { width: 120px; height: 146px; }
+      .cal-title { font-size: 19px; }
+      .hero-photo img { aspect-ratio: 16 / 8; border-radius: 20px; }
+      .hero-photo figcaption { display: none; }
+      .icon-btn, .today-btn { height: 40px; }
+      .icon-btn { width: 40px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .btn { transition: none; }
+      .btn:hover { transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="trim" aria-hidden="true"></div>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="https://TherapeuticConnection.com">
+        <img src="images/tc-mark.png" alt="Therapeutic Connection logo" width="48" height="48">
+        <span>Therapeutic Connection<small>Physical Therapy and Wellness</small></span>
+      </a>
+      <div class="header-actions">
+        <a class="phone" href="tel:+18082890601">808-289-0601</a>
+        <a class="btn btn-sea btn-small" href="#book">Book a class</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap">
+        <div>
+          <span class="eyebrow">Weekly Self-Massage Class: Myofascial Release</span>
+          <h1 id="hero-title">Give your body the hour it keeps asking for!</h1>
+          <p class="lede">Loosen tight, achy muscles, move with more ease, and walk out feeling looser and relaxed! As gentle or as deep as you like, and simple enough to take home with you.</p>
+          <ul class="facts">
+            <li class="when">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+              Tuesdays, 4:15 to 5:15 PM
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+              Waikoloa Community Church
+            </li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn btn-sea" href="https://TherapeuticConnection.as.me/1MFRclass" target="_blank" rel="noopener">Book 1 class <span class="price">$15</span></a>
+            <a class="btn btn-sun" href="https://TherapeuticConnection.as.me/4MFRclasses440" target="_blank" rel="noopener">Roll all month: 4 classes <span class="price">$40</span></a>
+          </div>
+
+          <div class="status" id="status" role="status" aria-live="polite">
+            <div class="status-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="16" rx="3"/><path d="M3 9.5h18M8 3v3M16 3v3"/></svg>
+            </div>
+            <div>
+              <div class="status-label">Next class</div>
+              <p class="status-main" id="status-main">Tuesdays, 4:15 to 5:15 PM</p>
+              <p class="status-sub" id="status-sub"><a href="#calendar">Check the class calendar</a> for cancelled dates.</p>
+            </div>
+          </div>
+        </div>
+
+        <figure class="hero-photo" style="margin:0">
+          <img src="images/mfr-tools.jpg" alt="Blue foam rollers, massage balls, and self-massage tools laid out on a mat" width="917" height="646">
+          <figcaption>Bring your own tools or try ours.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="calendar" aria-labelledby="cal-heading">
+      <div class="wrap">
+        <h2 id="cal-heading">Class calendar</h2>
+        <p class="section-intro">Check here before you come. Class meets every Tuesday, and any week off for a holiday or vacation is marked in red.</p>
+
+        <div class="cal-layout">
+          <div class="card cal-card">
+            <p class="announcement" id="announcement"></p>
+            <div class="cal-head">
+              <h3 class="cal-title" id="cal-title" aria-live="polite">Month</h3>
+              <div class="cal-nav">
+                <button class="today-btn" type="button" id="cal-today">This month</button>
+                <button class="icon-btn" type="button" id="cal-prev" aria-label="Previous month">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+                </button>
+                <button class="icon-btn" type="button" id="cal-next" aria-label="Next month">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+                </button>
+              </div>
+            </div>
+            <table class="month" id="cal-grid" aria-labelledby="cal-title">
+              <thead>
+                <tr>
+                  <th scope="col"><abbr title="Sunday">Sun</abbr></th>
+                  <th scope="col"><abbr title="Monday">Mon</abbr></th>
+                  <th scope="col"><abbr title="Tuesday">Tue</abbr></th>
+                  <th scope="col"><abbr title="Wednesday">Wed</abbr></th>
+                  <th scope="col"><abbr title="Thursday">Thu</abbr></th>
+                  <th scope="col"><abbr title="Friday">Fri</abbr></th>
+                  <th scope="col"><abbr title="Saturday">Sat</abbr></th>
+                </tr>
+              </thead>
+              <tbody id="cal-body"></tbody>
+            </table>
+            <p class="detail" id="cal-detail" aria-live="polite">Tap a highlighted day for details.</p>
+            <ul class="legend">
+              <li><span class="swatch class"></span>Class on</li>
+              <li><span class="swatch cancel"></span>No class</li>
+              <li><span class="swatch extra"></span>Extra or make-up class</li>
+              <li><span class="swatch today"></span>Today</li>
+            </ul>
+          </div>
+
+          <aside class="card changes" aria-labelledby="changes-heading">
+            <h3 id="changes-heading">Upcoming schedule changes</h3>
+            <p class="hint">Weeks off and extra classes, soonest first.</p>
+            <ul class="change-list" id="change-list"></ul>
+            <p class="updated" id="updated"></p>
+            <div class="book-side">
+              <a class="btn btn-sea" href="https://TherapeuticConnection.as.me/1MFRclass" target="_blank" rel="noopener">Book 1 class <span class="price">$15</span></a>
+              <a class="btn btn-sun" href="https://TherapeuticConnection.as.me/4MFRclasses440" target="_blank" rel="noopener">4 classes <span class="price">$40</span></a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="expect-heading">
+      <div class="wrap">
+        <h2 id="expect-heading">What to expect</h2>
+        <p class="section-intro">One relaxed hour of guided self-massage and myofascial release, every Tuesday afternoon.</p>
+        <div class="details-grid">
+          <div class="card detail-card">
+            <div class="bubble sea" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12c2-4 4-4 6 0s4 4 6 0 4-4 4-4"/><path d="M4 18c2-4 4-4 6 0s4 4 6 0 4-4 4-4"/></svg>
+            </div>
+            <h3>Loosen up</h3>
+            <p>Loosen tight, achy muscles, move with more ease, and walk out feeling looser and relaxed.</p>
+          </div>
+          <div class="card detail-card">
+            <div class="bubble" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16"/><path d="M7 16V8M12 16V4M17 16v-6"/></svg>
+            </div>
+            <h3>Every level welcome</h3>
+            <p>From curious first-timers to seasoned rollers. Go as gentle or as deep as you like.</p>
+          </div>
+          <div class="card detail-card">
+            <div class="bubble sea" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>
+            </div>
+            <h3>Take it home</h3>
+            <p>Every technique is simple enough to take home with you. Bring a mat and your own tools, or try ours.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="book" aria-labelledby="book-heading">
+      <div class="wrap">
+        <h2 id="book-heading">Save your spot</h2>
+        <p class="section-intro">Booking takes about a minute through our online scheduler.</p>
+        <div class="pricing">
+          <div class="card price-card">
+            <div class="price-name">Single class</div>
+            <div class="price-amount">$15 <span>per session</span></div>
+            <p>Drop in for one hour on any Tuesday that fits your week.</p>
+            <a class="btn btn-sea" href="https://TherapeuticConnection.as.me/1MFRclass" target="_blank" rel="noopener">Book 1 class</a>
+          </div>
+          <div class="card price-card featured">
+            <span class="badge">Best value</span>
+            <div class="price-name">Roll all month</div>
+            <div class="price-amount">$40 <span>for 4 classes</span></div>
+            <p>Four Tuesday classes for $40, a $20 savings over four drop-ins.</p>
+            <a class="btn btn-sun" href="https://TherapeuticConnection.as.me/4MFRclasses440" target="_blank" rel="noopener">Book 4 classes</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="where-heading">
+      <div class="wrap">
+        <h2 id="where-heading" class="sr-only">Where and who</h2>
+        <div class="two-col">
+          <div class="card where">
+            <h3 style="font-size:20px;font-weight:800;margin:0">Where and when</h3>
+            <address>Waikoloa Community Church<br>68-3621 Paniolo Ave<br>Waikoloa Village, HI 96738</address>
+            <dl>
+              <dt>Day</dt><dd>Every Tuesday (see the calendar for weeks off)</dd>
+              <dt>Time</dt><dd>4:15 to 5:15 PM</dd>
+              <dt>Bring</dt><dd>A mat, plus your own tools if you have them</dd>
+            </dl>
+            <a class="btn btn-sea btn-small" href="https://www.google.com/maps/search/?api=1&amp;query=Waikoloa%20Community%20Church%2C%2068-3621%20Paniolo%20Ave%2C%20Waikoloa%20Village%2C%20HI" target="_blank" rel="noopener">Get directions</a>
+          </div>
+          <div class="card teacher">
+            <img src="images/carolyn-silan-pt.jpg" alt="Carolyn Silan, PT, holding a self-massage tool" width="399" height="578">
+            <div>
+              <h3>Carolyn Silan, PT</h3>
+              <p class="creds">CGCP, CSCS-R, CEAS</p>
+              <p>Your neighbor and Physical Therapist here in Waikoloa Village, with 30+ years of clinical expertise as a Manual (hands-on) Therapy Specialist. Carolyn leads every class and will show you how to get the most out of each tool.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p class="signoff">Your Body Will Thank You!</p>
+      <ul class="contact">
+        <li><a href="tel:+18082890601">808-289-0601</a></li>
+        <li><a href="mailto:Carolyn@TherapeuticConnection.com">Carolyn@TherapeuticConnection.com</a></li>
+        <li><a href="https://TherapeuticConnection.com">TherapeuticConnection.com</a></li>
+        <li><a href="https://TherapeuticConnection.Substack.com">TherapeuticConnection.Substack.com</a></li>
+      </ul>
+      <p class="disclaimer">This content is for informational and educational purposes only. It does not take the place of medical advice or treatment from a Physical Therapist or other healthcare provider. Please consult with a Physical Therapist or healthcare provider for specific health concerns or questions.</p>
+    </div>
+  </footer>
+
+  <script src="schedule.js"></script>
+  <script>
+  (function () {
+    "use strict";
+
+    var S = window.MFR_SCHEDULE || {};
+    var TZ = "Pacific/Honolulu";
+    var DAY_NAMES = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+    var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var MONTHS_SHORT = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    var WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+    var classDay = DAY_NAMES.indexOf(String(S.classWeekday || "Tuesday").toLowerCase());
+    if (classDay < 0) classDay = 2;
+    var startTime = S.startTime || "4:15 PM";
+    var endTime = S.endTime || "5:15 PM";
+    function timeRange(a, b) {
+      var am = /\s*([AaPp][Mm])$/.exec(a), bm = /\s*([AaPp][Mm])$/.exec(b);
+      if (am && bm && am[1].toUpperCase() === bm[1].toUpperCase()) a = a.slice(0, am.index);
+      return a + " to " + b;
+    }
+    var regularTime = timeRange(startTime, endTime);
+
+    // ---- date helpers (all dates are "YYYY-MM-DD" strings handled in UTC to avoid time zone drift)
+    function isoValid(s) { return typeof s === "string" && /^\d{4}-\d{2}-\d{2}$/.test(s.trim()); }
+    function toDate(iso) { return new Date(iso + "T00:00:00Z"); }
+    function toIso(d) { return d.toISOString().slice(0, 10); }
+    function addDays(iso, n) { var d = toDate(iso); d.setUTCDate(d.getUTCDate() + n); return toIso(d); }
+    function weekday(iso) { return toDate(iso).getUTCDay(); }
+    function longDate(iso) { var d = toDate(iso); return WEEKDAYS[d.getUTCDay()] + ", " + MONTHS[d.getUTCMonth()] + " " + d.getUTCDate(); }
+    function minutesOf(t) {
+      var m = /(\d{1,2}):(\d{2})\s*([AaPp])/.exec(t || "");
+      if (!m) return 17 * 60 + 15;
+      var h = parseInt(m[1], 10) % 12; if (/p/i.test(m[3])) h += 12;
+      return h * 60 + parseInt(m[2], 10);
+    }
+
+    function hawaiiNow() {
+      var parts = new Intl.DateTimeFormat("en-US", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date());
+      var get = function (t) { for (var i = 0; i < parts.length; i++) if (parts[i].type === t) return parts[i].value; return "0"; };
+      return { iso: get("year") + "-" + get("month") + "-" + get("day"), minutes: parseInt(get("hour"), 10) * 60 + parseInt(get("minute"), 10) };
+    }
+
+    // Optional preview override: add ?date=2026-12-20 to the page address to see the page as of that day.
+    var now = hawaiiNow();
+    var q = /[?&]date=(\d{4}-\d{2}-\d{2})/.exec(location.search);
+    if (q) now = { iso: q[1], minutes: 0 };
+    var TODAY = now.iso;
+
+    // ---- schedule lookups
+    var cancelled = {};
+    (S.cancellations || []).forEach(function (c) { if (c && isoValid(c.date)) cancelled[c.date.trim()] = (c.reason || "").trim(); });
+    var extras = {};
+    (S.extraClasses || []).forEach(function (c) { if (c && isoValid(c.date)) extras[c.date.trim()] = { time: (c.time || regularTime).trim(), note: (c.note || "").trim() }; });
+    var first = isoValid(S.firstClass) ? S.firstClass.trim() : "2026-09-08";
+    var last = isoValid(S.lastClass) ? S.lastClass.trim() : "";
+
+    function isRegular(iso) { return weekday(iso) === classDay && iso >= first && (!last || iso <= last); }
+    function dayInfo(iso) {
+      if (extras[iso]) return { type: "extra", time: extras[iso].time, note: extras[iso].note };
+      if (isRegular(iso)) {
+        if (Object.prototype.hasOwnProperty.call(cancelled, iso)) return { type: "cancel", reason: cancelled[iso] };
+        return { type: "class", time: regularTime };
+      }
+      return null;
+    }
+    function classStillAhead(iso, info) {
+      if (iso > TODAY) return true;
+      if (iso < TODAY) return false;
+      var end = info.type === "extra" ? minutesOf((info.time.split(" to ")[1] || endTime)) : minutesOf(endTime);
+      return now.minutes < end;
+    }
+
+    // ---- status card
+    function renderStatus() {
+      var box = document.getElementById("status");
+      var main = document.getElementById("status-main");
+      var sub = document.getElementById("status-sub");
+      var label = box.querySelector(".status-label");
+      var nextClass = null, skipped = [];
+      for (var i = 0; i < 400; i++) {
+        var iso = addDays(TODAY, i), info = dayInfo(iso);
+        if (!info) continue;
+        if (info.type === "cancel") { skipped.push({ iso: iso, reason: info.reason }); continue; }
+        if (classStillAhead(iso, info)) { nextClass = { iso: iso, info: info }; break; }
+      }
+      // A cancelled class this week (before the next class) is the most important thing to show.
+      var upcomingSkip = skipped.length && (!nextClass || skipped[0].iso < nextClass.iso) ? skipped[0] : null;
+      var calLink = ' <a href="#calendar">See the calendar</a>';
+
+      if (upcomingSkip) {
+        box.classList.add("is-off");
+        label.textContent = upcomingSkip.iso === TODAY ? "Today" : "Heads up";
+        main.textContent = "No class " + (upcomingSkip.iso === TODAY ? "today, " : "") + longDate(upcomingSkip.iso) + (upcomingSkip.reason ? " (" + upcomingSkip.reason + ")" : "");
+        sub.innerHTML = nextClass
+          ? "Next class: <strong>" + longDate(nextClass.iso) + ", " + escapeHtml(nextClass.info.time) + "</strong>." + calLink
+          : "Check back soon for the next class date." + calLink;
+      } else if (nextClass) {
+        box.classList.remove("is-off");
+        var isToday = nextClass.iso === TODAY;
+        label.textContent = isToday ? "Today" : "Next class";
+        main.textContent = (isToday ? "Class is on today, " : longDate(nextClass.iso) + ", ") + nextClass.info.time;
+        sub.innerHTML = (nextClass.info.note ? escapeHtml(nextClass.info.note) + ". " : "Class is on as scheduled. ") + "Waikoloa Community Church." + calLink;
+      } else {
+        main.textContent = "No upcoming classes are scheduled right now";
+        sub.innerHTML = 'Call <a href="tel:+18082890601">808-289-0601</a> for the next session.';
+      }
+    }
+
+    // ---- upcoming changes list
+    function renderChanges() {
+      var list = document.getElementById("change-list");
+      var items = [];
+      Object.keys(cancelled).forEach(function (iso) { if (iso >= TODAY && isRegular(iso)) items.push({ iso: iso, type: "cancel", text: cancelled[iso] }); });
+      Object.keys(extras).forEach(function (iso) { if (iso >= TODAY) items.push({ iso: iso, type: "extra", text: extras[iso].note, time: extras[iso].time }); });
+      items.sort(function (a, b) { return a.iso < b.iso ? -1 : 1; });
+      list.innerHTML = "";
+      if (!items.length) {
+        var li = document.createElement("li");
+        li.className = "all-clear";
+        li.innerHTML = '<div class="change-text"><strong>No weeks off scheduled</strong>Class runs every ' + WEEKDAYS[classDay] + ", " + escapeHtml(regularTime) + ".</div>";
+        list.appendChild(li);
+      }
+      items.slice(0, 8).forEach(function (it) {
+        var d = toDate(it.iso);
+        var li = document.createElement("li");
+        if (it.type === "extra") li.className = "extra";
+        var title = it.type === "cancel" ? "No class" : "Extra class, " + escapeHtml(it.time);
+        var detail = it.text ? escapeHtml(it.text) : (it.type === "cancel" ? WEEKDAYS[d.getUTCDay()] + " class is off this week" : "");
+        li.innerHTML = '<div class="date-chip"><span>' + MONTHS_SHORT[d.getUTCMonth()] + "</span><b>" + d.getUTCDate() + "</b></div>" +
+          '<div class="change-text"><strong>' + title + "</strong>" + detail + "</div>";
+        li.setAttribute("aria-label", longDate(it.iso) + ": " + (it.type === "cancel" ? "No class" : "Extra class " + it.time) + (it.text ? ", " + it.text : ""));
+        list.appendChild(li);
+      });
+      var up = document.getElementById("updated");
+      if (isoValid(S.lastUpdated)) up.textContent = "Calendar last updated " + MONTHS[toDate(S.lastUpdated).getUTCMonth()] + " " + toDate(S.lastUpdated).getUTCDate() + ", " + toDate(S.lastUpdated).getUTCFullYear() + ".";
+      var ann = document.getElementById("announcement");
+      if (S.announcement && String(S.announcement).trim()) { ann.textContent = String(S.announcement).trim(); ann.classList.add("show"); }
+    }
+
+    // ---- month calendar
+    var todayDate = toDate(TODAY);
+    var view = { y: todayDate.getUTCFullYear(), m: todayDate.getUTCMonth() };
+    var minView = { y: toDate(first).getUTCFullYear(), m: toDate(first).getUTCMonth() };
+    var maxView = { y: todayDate.getUTCFullYear() + 1, m: todayDate.getUTCMonth() };
+    function cmp(a, b) { return (a.y - b.y) * 12 + (a.m - b.m); }
+    if (cmp(view, minView) < 0) view = { y: minView.y, m: minView.m };
+
+    function describe(iso, info) {
+      var when = longDate(iso);
+      if (!info) return when + ": no class scheduled.";
+      if (info.type === "class") return "<strong>" + when + ":</strong> Class is on, " + escapeHtml(info.time) + " at Waikoloa Community Church.";
+      if (info.type === "extra") return "<strong>" + when + ":</strong> Extra class, " + escapeHtml(info.time) + (info.note ? ". " + escapeHtml(info.note) : "") + ".";
+      return "<strong>" + when + ": No class.</strong>" + (info.reason ? " " + escapeHtml(info.reason) + "." : "");
+    }
+
+    function renderMonth() {
+      document.getElementById("cal-title").textContent = MONTHS[view.m] + " " + view.y;
+      document.getElementById("cal-prev").disabled = cmp(view, minView) <= 0;
+      document.getElementById("cal-next").disabled = cmp(view, maxView) >= 0;
+      var ths = document.querySelectorAll("#cal-grid thead th");
+      for (var t = 0; t < ths.length; t++) ths[t].classList.toggle("class-col", t === classDay);
+
+      var body = document.getElementById("cal-body");
+      body.innerHTML = "";
+      var firstIso = view.y + "-" + String(view.m + 1).padStart(2, "0") + "-01";
+      var lead = weekday(firstIso);
+      var daysInMonth = new Date(Date.UTC(view.y, view.m + 1, 0)).getUTCDate();
+      var cells = Math.ceil((lead + daysInMonth) / 7) * 7;
+      var tr;
+      for (var i = 0; i < cells; i++) {
+        if (i % 7 === 0) { tr = document.createElement("tr"); body.appendChild(tr); }
+        var td = document.createElement("td");
+        var dayNum = i - lead + 1;
+        if (dayNum < 1 || dayNum > daysInMonth) { td.className = "empty"; tr.appendChild(td); continue; }
+        var iso = addDays(firstIso, dayNum - 1);
+        var info = dayInfo(iso);
+        var el = document.createElement(info ? "button" : "div");
+        el.className = "day";
+        if (info) { el.type = "button"; el.setAttribute("data-iso", iso); }
+
+        var top = '<span class="day-top"><span class="num">' + dayNum + "</span>" + (iso === TODAY ? '<span class="today-label">Today</span>' : "") + "</span>";
+        var tag = "", sr = "";
+        if (info && info.type === "class") { td.classList.add("is-class"); tag = '<span class="tag">Class<small>' + escapeHtml(startTime) + "</small></span>"; sr = "Class on, " + info.time; }
+        if (info && info.type === "extra") { td.classList.add("is-extra"); tag = '<span class="tag">Extra class<small>' + escapeHtml(info.time.split(" to ")[0]) + "</small></span>"; sr = "Extra class, " + info.time; }
+        if (info && info.type === "cancel") { td.classList.add("is-cancel"); tag = '<span class="tag">No class' + (info.reason ? "<small>" + escapeHtml(info.reason) + "</small>" : "") + "</span>"; sr = "No class" + (info.reason ? ", " + info.reason : ""); }
+        if (iso === TODAY) td.classList.add("is-today");
+        if (iso < TODAY) td.classList.add("is-past");
+        el.innerHTML = top + tag + '<span class="sr-only">' + longDate(iso) + (sr ? ", " + escapeHtml(sr) : "") + (iso === TODAY ? ", today" : "") + "</span>";
+        td.appendChild(el);
+        tr.appendChild(td);
+      }
+    }
+
+    document.getElementById("cal-body").addEventListener("click", function (e) {
+      var btn = e.target.closest("button.day");
+      if (!btn) return;
+      var iso = btn.getAttribute("data-iso");
+      var prev = document.querySelector("td.is-selected");
+      if (prev) prev.classList.remove("is-selected");
+      btn.parentNode.classList.add("is-selected");
+      document.getElementById("cal-detail").innerHTML = describe(iso, dayInfo(iso));
+    });
+    document.getElementById("cal-prev").addEventListener("click", function () { view.m--; if (view.m < 0) { view.m = 11; view.y--; } renderMonth(); });
+    document.getElementById("cal-next").addEventListener("click", function () { view.m++; if (view.m > 11) { view.m = 0; view.y++; } renderMonth(); });
+    document.getElementById("cal-today").addEventListener("click", function () { view = { y: todayDate.getUTCFullYear(), m: todayDate.getUTCMonth() }; if (cmp(view, minView) < 0) view = { y: minView.y, m: minView.m }; renderMonth(); });
+
+    function escapeHtml(s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+
+    renderStatus();
+    renderChanges();
+    renderMonth();
+  })();
+  </script>
+</body>
+</html>
