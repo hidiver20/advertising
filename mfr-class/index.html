@@ -22,12 +22,12 @@
       --line: #e9e4d8;
       --paper: #fffcf5;
       --card: #ffffff;
-      --sun: #f5c518;
-      --sun-deep: #f2a91c;
+      --sun: #f4d50c;
+      --sun-deep: #f2aa1d;
       --sun-tint: #fff6d6;
       --sea: #0a7ea4;
       --sea-deep: #075f7c;
-      --sea-bright: #12bde8;
+      --sea-bright: #0bc1ea;
       --sea-tint: #e5f6fb;
       --stop: #c0262d;
       --stop-tint: #fdecec;
@@ -75,7 +75,7 @@
     .btn-sea { background: var(--sea); color: #fff; }
     .btn-sea:hover { background: var(--sea-deep); }
     .btn-sun { background: var(--sun); color: var(--ink); }
-    .btn-sun:hover { background: #ffd43b; }
+    .btn-sun:hover { background: #ffe03a; }
     .btn-small { min-height: 40px; padding: 8px 16px; font-size: 14px; }
     .btn .price { font-weight: 800; padding-left: 8px; margin-left: 2px; border-left: 2px solid currentColor; }
 
@@ -137,7 +137,7 @@
     button.day:hover { box-shadow: inset 0 0 0 2px var(--line); }
     .num { font-size: 15px; font-weight: 600; line-height: 1; padding: 6px 0; min-width: 28px; text-align: center; border-radius: 999px; }
     .tag { font-size: 12px; font-weight: 700; line-height: 1.25; padding: 4px 8px; border-radius: 8px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
-    .tag small { display: block; font-weight: 500; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .tag small { display: block; font-weight: 500; font-size: 11px; white-space: normal; overflow-wrap: anywhere; }
     td.is-class { background: var(--sea-tint); }
     td.is-class .num { background: var(--sea); color: #fff; }
     td.is-class .tag { color: var(--sea-deep); background: #fff; }
@@ -522,8 +522,12 @@
     (S.extraClasses || []).forEach(function (c) { if (c && isoValid(c.date)) extras[c.date.trim()] = { time: (c.time || regularTime).trim(), note: (c.note || "").trim() }; });
     var first = isoValid(S.firstClass) ? S.firstClass.trim() : "2026-09-08";
     var last = isoValid(S.lastClass) ? S.lastClass.trim() : "";
+    var planned = isoValid(S.plannedThrough) ? S.plannedThrough.trim() : "";
+    function fullDate(iso) { var d = toDate(iso); return MONTHS[d.getUTCMonth()] + " " + d.getUTCDate() + ", " + d.getUTCFullYear(); }
+    var plannedLine = planned ? "The calendar is planned through " + fullDate(planned) + "." : "";
+    var comingSoon = planned ? plannedLine + " New dates are coming soon." : "Check back soon for the next class date.";
 
-    function isRegular(iso) { return weekday(iso) === classDay && iso >= first && (!last || iso <= last); }
+    function isRegular(iso) { return weekday(iso) === classDay && iso >= first && (!last || iso <= last) && (!planned || iso <= planned); }
     function dayInfo(iso) {
       if (extras[iso]) return { type: "extra", time: extras[iso].time, note: extras[iso].note };
       if (isRegular(iso)) {
@@ -562,7 +566,7 @@
         main.textContent = "No class " + (upcomingSkip.iso === TODAY ? "today, " : "") + longDate(upcomingSkip.iso) + (upcomingSkip.reason ? " (" + upcomingSkip.reason + ")" : "");
         sub.innerHTML = nextClass
           ? "Next class: <strong>" + longDate(nextClass.iso) + ", " + escapeHtml(nextClass.info.time) + "</strong>." + calLink
-          : "Check back soon for the next class date." + calLink;
+          : comingSoon + calLink;
       } else if (nextClass) {
         box.classList.remove("is-off");
         var isToday = nextClass.iso === TODAY;
@@ -570,8 +574,8 @@
         main.textContent = (isToday ? "Class is on today, " : longDate(nextClass.iso) + ", ") + nextClass.info.time;
         sub.innerHTML = (nextClass.info.note ? escapeHtml(nextClass.info.note) + ". " : "Class is on as scheduled. ") + "Waikoloa Community Church." + calLink;
       } else {
-        main.textContent = "No upcoming classes are scheduled right now";
-        sub.innerHTML = 'Call <a href="tel:+18082890601">808-289-0601</a> for the next session.';
+        main.textContent = "New class dates are coming soon";
+        sub.innerHTML = (plannedLine ? escapeHtml(plannedLine) + " " : "") + 'Questions? Call <a href="tel:+18082890601">808-289-0601</a>.';
       }
     }
 
@@ -586,7 +590,9 @@
       if (!items.length) {
         var li = document.createElement("li");
         li.className = "all-clear";
-        li.innerHTML = '<div class="change-text"><strong>No weeks off scheduled</strong>Class runs every ' + WEEKDAYS[classDay] + ", " + escapeHtml(regularTime) + ".</div>";
+        li.innerHTML = planned && TODAY > planned
+          ? '<div class="change-text"><strong>New dates coming soon</strong>' + escapeHtml(plannedLine) + "</div>"
+          : '<div class="change-text"><strong>No weeks off scheduled</strong>Class runs every ' + WEEKDAYS[classDay] + ", " + escapeHtml(regularTime) + ".</div>";
         list.appendChild(li);
       }
       items.slice(0, 8).forEach(function (it) {
@@ -601,7 +607,10 @@
         list.appendChild(li);
       });
       var up = document.getElementById("updated");
-      if (isoValid(S.lastUpdated)) up.textContent = "Calendar last updated " + MONTHS[toDate(S.lastUpdated).getUTCMonth()] + " " + toDate(S.lastUpdated).getUTCDate() + ", " + toDate(S.lastUpdated).getUTCFullYear() + ".";
+      var upText = [];
+      if (planned) upText.push("Planned through " + fullDate(planned) + ".");
+      if (isoValid(S.lastUpdated)) upText.push("Last updated " + fullDate(S.lastUpdated) + ".");
+      up.textContent = upText.join(" ");
       var ann = document.getElementById("announcement");
       if (S.announcement && String(S.announcement).trim()) { ann.textContent = String(S.announcement).trim(); ann.classList.add("show"); }
     }
@@ -611,6 +620,10 @@
     var view = { y: todayDate.getUTCFullYear(), m: todayDate.getUTCMonth() };
     var minView = { y: toDate(first).getUTCFullYear(), m: toDate(first).getUTCMonth() };
     var maxView = { y: todayDate.getUTCFullYear() + 1, m: todayDate.getUTCMonth() };
+    if (planned) {
+      var pd = toDate(planned);
+      maxView = { y: pd.getUTCFullYear() + (pd.getUTCMonth() === 11 ? 1 : 0), m: (pd.getUTCMonth() + 1) % 12 };
+    }
     function cmp(a, b) { return (a.y - b.y) * 12 + (a.m - b.m); }
     if (cmp(view, minView) < 0) view = { y: minView.y, m: minView.m };
 
@@ -632,6 +645,9 @@
       var body = document.getElementById("cal-body");
       body.innerHTML = "";
       var firstIso = view.y + "-" + String(view.m + 1).padStart(2, "0") + "-01";
+      document.getElementById("cal-detail").textContent = planned && firstIso > planned
+        ? "Class dates for " + MONTHS[view.m] + " " + view.y + " have not been posted yet. Check back soon!"
+        : "Tap a highlighted day for details.";
       var lead = weekday(firstIso);
       var daysInMonth = new Date(Date.UTC(view.y, view.m + 1, 0)).getUTCDate();
       var cells = Math.ceil((lead + daysInMonth) / 7) * 7;

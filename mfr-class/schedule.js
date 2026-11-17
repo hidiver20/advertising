@@ -13,6 +13,11 @@
     Add a line inside "extraClasses", like this:
       { date: "2026-12-23", time: "4:15 to 5:15 PM", note: "Make-up class" },
 
+  PLANNING AHEAD
+    "plannedThrough" is the last date you have planned. Tuesdays after it are left blank
+    on the calendar until you move this date forward. Leave it as "" to show every
+    Tuesday from now on.
+
   TO POST A SHORT ANNOUNCEMENT above the calendar
     Type it between the quotes in "announcement". Leave it as "" to show nothing.
 
@@ -20,7 +25,7 @@
     Change "lastUpdated" to today's date so visitors know the calendar is current.
 */
 window.MFR_SCHEDULE = {
-  lastUpdated: "2026-11-16",
+  lastUpdated: "2026-11-17",
 
   // The regular weekly class
   classWeekday: "Tuesday",
@@ -28,12 +33,15 @@ window.MFR_SCHEDULE = {
   endTime: "5:15 PM",
   firstClass: "2026-09-08",
   lastClass: "", // leave "" while the class is ongoing
+  plannedThrough: "2026-12-31",
 
-  announcement: "",
+  announcement: "The class calendar is planned through the end of 2026 at this time. Check back soon for 2027 dates!",
 
   cancellations: [
     { date: "2026-10-27", reason: "" },
     { date: "2026-11-03", reason: "" },
+    { date: "2026-12-22", reason: "Holiday break" },
+    { date: "2026-12-29", reason: "Holiday break" },
   ],
 
   extraClasses: [

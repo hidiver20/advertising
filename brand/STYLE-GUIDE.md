@@ -13,16 +13,23 @@ Observed from Carolyn Silan's Canva designs ("TC Pain Relief Handouts / Coupons"
 
 ## Logo
 
-- [therapeutic-connection-logo-mark.png](therapeutic-connection-logo-mark.png): circular mark (transparent background) exported from Canva page 25
+- [therapeutic-connection-logo.ai](therapeutic-connection-logo.ai): master Adobe Illustrator file ("Therapeutic Connection Physical Therapy and Wellness for Circle Logo," December 2024). Edit this one.
+- [therapeutic-connection-logo.svg](therapeutic-connection-logo.svg): full logo as a vector, transparent background. Sharp at any size; best for websites and print shops.
+- [therapeutic-connection-logo.png](therapeutic-connection-logo.png): full logo, 2515 x 2741 px, transparent background. Best for Canva uploads.
+- [therapeutic-connection-logo-mark.png](therapeutic-connection-logo-mark.png): circle mark only (sun, palm tree, TC swirl, hands and heart), 1024 x 1024 px, transparent background. Use for social media profile pictures and website icons.
+- The SVG and PNGs were converted directly from the .ai file. The palm tree and heart are white and the lettering is black, so place the logo on white or light backgrounds.
 - Full lockup: yellow-to-orange gradient circle with a white palm tree, turquoise "TC" swirl, and black cupped hands holding a white heart. Beneath it: "Therapeutic" in black serif, "Connection" in turquoise script, "PHYSICAL THERAPY AND WELLNESS" in small bold black caps.
 - Placement: top left on handouts and flyers, with Carolyn's headshot (green top, outdoor background) top right.
 
-## Colors (approximate, sampled visually from designs)
+## Colors
+
+Logo colors are exact values read from the master .ai file. The others are sampled visually from Canva designs.
 
 | Role | Color |
 |---|---|
-| Logo gradient | Sunny yellow into warm orange |
-| Accent | Turquoise / sky blue (the "Connection" script, "ATTENTION SENIORS" box, exercise panels on light blue) |
+| Logo gradient | Yellow `#F4D50C` (bottom) into orange `#F2AA1D` (top) |
+| Accent | Turquoise `#0BC1EA` (the "Connection" script and TC swirl; also the "ATTENTION SENIORS" box and light blue exercise panels) |
+| Logo lettering | Near-black `#231F20` |
 | Text | Black on white |
 | Seminar date and time highlight | Red |
 | Coupon trim | Yellow, orange and turquoise bands |

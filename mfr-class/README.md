@@ -16,7 +16,7 @@ Class details come from the flyer in Canva (design "Seminar flyers," page 31) an
 | [schedule.js](schedule.js) | **The file you edit** to cancel a class, add a make-up class, or post an announcement |
 | [qr/](qr/) | QR codes for flyers (PNG and SVG) |
 | [social-media-posts.md](social-media-posts.md) | 7 ready-to-post captions |
-| [images/](images/) | Logo mark, tools photo, and headshot, cropped from the Canva flyer |
+| [images/](images/) | Logo mark (from the master .ai logo file), plus the tools photo and headshot cropped from the Canva flyer |
 
 ## QR codes for flyers
 
@@ -45,7 +45,9 @@ Everything the calendar shows comes from [schedule.js](schedule.js). The instruc
 { date: "2026-12-23", time: "4:15 to 5:15 PM", note: "Make-up class" },
 ```
 
-**Post a short announcement** above the calendar by typing it into `announcement`.
+**Plan further ahead** by moving `plannedThrough` forward. Tuesdays after that date stay blank on the calendar, so nobody mistakes an unplanned week for a confirmed class. It's set to December 31, 2026 right now.
+
+**Post a short announcement** above the calendar by typing it into `announcement`. It currently says the calendar is planned through the end of 2026.
 
 Then change `lastUpdated` to today's date. The page shows that date so visitors know the calendar is current.
 
@@ -57,10 +59,11 @@ Then change `lastUpdated` to today's date. The page shows that date so visitors 
 
 ## How the page decides what to show
 
-- Every Tuesday from September 8, 2026 onward is a class day unless it's listed in `cancellations`.
+- Every Tuesday from September 8, 2026 through `plannedThrough` is a class day unless it's listed in `cancellations`.
 - The "next class" box uses Hawaiʻi time. On a class day it says "Class is on today" until 5:15 PM.
 - If the coming Tuesday is cancelled, the box turns red and gives the reason and the next class date.
 - Past cancellations (October 27 and November 3, from the flyer) stay visible when visitors page back through the calendar.
+- Current plan: class every Tuesday through December 15, 2026, then a holiday break on December 22 and 29.
 
 ## Putting the page online
 
