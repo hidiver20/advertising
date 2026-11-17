@@ -33,9 +33,9 @@ window.MFR_SCHEDULE = {
   endTime: "5:15 PM",
   firstClass: "2026-09-08",
   lastClass: "", // leave "" while the class is ongoing
-  plannedThrough: "2026-12-31",
+  plannedThrough: "2027-01-31",
 
-  announcement: "The class calendar is planned through the end of 2026 at this time. Check back soon for 2027 dates!",
+  announcement: "The class calendar is planned through January 2027 at this time. Check back soon for February dates!",
 
   cancellations: [
     { date: "2026-10-27", reason: "" },
