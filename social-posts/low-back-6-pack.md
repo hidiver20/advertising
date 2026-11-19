@@ -4,9 +4,9 @@ Written November 18, 2026, and updated November 19, 2026 with the holiday offer,
 
 ## The offer
 
-**Holiday gift to the local and online community (November 19 through December 19, 2026):** deep discounts on the Low Back 6-Pack, an extra discount for Seniors, and the option to swap "low back" for any body area that needs a little TLC before Christmas and the new year.
+**Holiday gift to the local and online community (November 19 through December 19, 2026):** deep discounts on the Low Back 6-Pack, an extra discount for Seniors 65+, and the option to swap "low back" for any body area that needs a little TLC before Christmas and the new year.
 
-| | Low Back 6-Pack | Senior 6-Pack |
+| | Low Back 6-Pack | Senior 6-Pack (ages 65+) |
 |---|---|---|
 | Acuity name | "6 Pack - Say Goodbye to Low Back Pain" | "6 Pack for Seniors: Say Good-bye to Back Pain" |
 | Price | $600 for six 60-minute sessions | $500 for six 60-minute sessions |
@@ -24,7 +24,7 @@ Every post carries the same holiday gift block (🎁 🔹 🌺 🎄) and closes 
 ## Post 1: The launch (the offer, plain and clear)
 
 **Goal:** tell people exactly what they get, what it costs, and that it's a holiday gift.
-**Visual idea:** a branded Canva graphic in turquoise and sunshine yellow: "HOLIDAY GIFT · LOW BACK 6-PACK · 6 sessions · $600 · Seniors $500" with your headshot.
+**Visual idea:** a branded Canva graphic in turquoise and sunshine yellow: "HOLIDAY GIFT · LOW BACK 6-PACK · 6 sessions · $600 · Seniors 65+ $500" with your headshot.
 
 ```text
 Introducing the Low Back 6-Pack 🌺
@@ -37,14 +37,14 @@ Every session gives you two things:
 
 🎁 As my holiday gift to our local and online community, I'm offering deep discounts on the Low Back 6-Pack:
 🔹 6 sessions for $600 (a $900 value). That's $100 a session, and $300 back in your pocket 🤙
-🌺 Seniors save an extra $100: 6 sessions for $500
+🌺 Seniors 65+ save an extra $100: 6 sessions for $500
 🎄 Now through December 19, swap "low back" for any body area that needs a little TLC before Christmas and the new year: neck, shoulders, hips, knees, feet... you choose!
 
 📍 In person in Waikoloa Village, or virtual for Hawaiʻi and California residents
 📋 No referral needed, ever!
 
 👉 Grab your 6-Pack: [6-Pack link]
-👉 Senior 6-Pack ($500): [Senior 6-Pack link]
+👉 Senior 6-Pack, ages 65+ ($500): [Senior 6-Pack link]
 📞 Want to talk story first? Call or text 808-289-0601 for a FREE 15-minute phone consult.
 
 Your Body Will Thank You!
@@ -71,14 +71,14 @@ Start your 6-Pack this week. Book one session a week, and your sixth lands right
 
 🎁 As my holiday gift to our local and online community, I'm offering deep discounts on the Low Back 6-Pack:
 🔹 6 sessions for $600 (a $900 value)
-🌺 Seniors save an extra $100: 6 sessions for $500
+🌺 Seniors 65+ save an extra $100: 6 sessions for $500
 🎄 Now through December 19, swap "low back" for any body area that needs a little TLC before Christmas and the new year: neck, shoulders, hips, knees, feet... you choose!
 
 📍 In person in Waikoloa Village, or virtual for Hawaiʻi and California residents
 📋 No referral needed, ever!
 
 👉 Grab your 6-Pack: [6-Pack link]
-👉 Senior 6-Pack ($500): [Senior 6-Pack link]
+👉 Senior 6-Pack, ages 65+ ($500): [Senior 6-Pack link]
 📞 Call or text 808-289-0601 for a FREE 15-minute phone consult.
 
 Your Body Will Thank You!
@@ -109,11 +109,11 @@ In the Low Back 6-Pack, I evaluate and re-evaluate how your low back, SI joints 
 
 🎁 As my holiday gift to our local and online community, I'm offering deep discounts on the Low Back 6-Pack:
 🔹 6 sessions for $600 (a $900 value)
-🌺 Seniors save an extra $100: 6 sessions for $500
+🌺 Seniors 65+ save an extra $100: 6 sessions for $500
 🎄 Now through December 19, swap "low back" for any body area that needs a little TLC before Christmas and the new year: neck, shoulders, hips, knees, feet... you choose!
 
 👉 Grab your 6-Pack: [6-Pack link]
-👉 Senior 6-Pack ($500): [Senior 6-Pack link]
+👉 Senior 6-Pack, ages 65+ ($500): [Senior 6-Pack link]
 📞 Questions? Call or text 808-289-0601 for a FREE 15-minute phone consult.
 
 ⚠️ Numbness, weakness, bowel or bladder changes, or severe back pain that won't ease? Please see a physician right away.
@@ -147,11 +147,11 @@ My practice is right here on Paniolo Place in Waikoloa Village, and no referral 
 
 🎁 As my holiday gift to our local and online community, I'm offering deep discounts on the Low Back 6-Pack:
 🔹 6 sessions for $600 (a $900 value)
-🌺 Seniors save an extra $100: 6 sessions for $500
+🌺 Seniors 65+ save an extra $100: 6 sessions for $500
 🎄 Now through December 19, swap "low back" for any body area that needs a little TLC before Christmas and the new year: neck, shoulders, hips, knees, feet... you choose!
 
 👉 Start your 6-Pack: [6-Pack link]
-👉 Senior 6-Pack ($500): [Senior 6-Pack link]
+👉 Senior 6-Pack, ages 65+ ($500): [Senior 6-Pack link]
 📞 Or call or text 808-289-0601 and let's talk story with a FREE 15-minute phone consult. 🤙
 
 Your Body Will Thank You!
@@ -181,13 +181,13 @@ That's the kind of care the Low Back 6-Pack delivers:
 
 🎁 As my holiday gift to our local and online community, I'm offering deep discounts on the Low Back 6-Pack:
 🔹 6 sessions for $600 (a $900 value)
-🌺 Seniors save an extra $100: 6 sessions for $500
+🌺 Seniors 65+ save an extra $100: 6 sessions for $500
 🎄 Now through December 19, swap "low back" for any body area that needs a little TLC before Christmas and the new year: neck, shoulders, hips, knees, feet... you choose!
 
 📋 No referral needed, ever!
 
 👉 Grab your 6-Pack: [6-Pack link]
-👉 Senior 6-Pack ($500): [Senior 6-Pack link]
+👉 Senior 6-Pack, ages 65+ ($500): [Senior 6-Pack link]
 📞 Call or text 808-289-0601 for a FREE 15-minute phone consult.
 
 Your Body Will Thank You!
@@ -215,14 +215,14 @@ Six 60-minute Silan System sessions with me, combining hands-on care with simple
 
 🎁 As my holiday gift to our local and online community, I'm offering deep discounts on the Low Back 6-Pack:
 🔹 6 sessions for $600 (a $900 value)
-🌺 Seniors save an extra $100: 6 sessions for $500
+🌺 Seniors 65+ save an extra $100: 6 sessions for $500
 🎄 Now through December 19, swap "low back" for any body area that needs a little TLC before Christmas and the new year: neck, shoulders, hips, knees, feet... you choose!
 
 📍 In person in Waikoloa Village, or virtual for Hawaiʻi and California residents
 📋 No referral needed, ever!
 
 👉 Grab your 6-Pack: [6-Pack link]
-👉 Senior 6-Pack ($500): [Senior 6-Pack link]
+👉 Senior 6-Pack, ages 65+ ($500): [Senior 6-Pack link]
 📞 Call or text 808-289-0601 for a FREE 15-minute phone consult.
 
 Your Body Will Thank You!
@@ -252,13 +252,13 @@ That's the heart of the Low Back 6-Pack: six one-on-one sessions to find what's 
 
 🎁 As my holiday gift to our local and online community, I'm offering deep discounts on the Low Back 6-Pack:
 🔹 6 sessions for $600 (a $900 value)
-🌺 Seniors save an extra $100: 6 sessions for $500
+🌺 Seniors 65+ save an extra $100: 6 sessions for $500
 🎄 Now through December 19, swap "low back" for any body area that needs a little TLC before Christmas and the new year: neck, shoulders, hips, knees, feet... you choose!
 
 📋 No referral needed, ever!
 
 👉 Grab your 6-Pack: [6-Pack link]
-👉 Senior 6-Pack ($500): [Senior 6-Pack link]
+👉 Senior 6-Pack, ages 65+ ($500): [Senior 6-Pack link]
 📞 Call or text 808-289-0601 for a FREE 15-minute phone consult.
 
 More client stories: TherapeuticConnection.com/testimonials
@@ -291,8 +291,8 @@ If Post 2 goes up after Thanksgiving, change "your sixth lands right before New 
 1. **Link straight to checkout.** The two Acuity links drop people into the purchase with one tap. Short, memorable redirects on your website (for example, TherapeuticConnection.com/6pack and TherapeuticConnection.com/senior6pack) would look cleaner in posts and on flyers. Those redirects do not exist yet; you would set them up in your website settings.
 2. **Update Acuity to match the holiday offer.** Both packages are still titled and described for the low back only ("Say Goodbye to Low Back Pain" and "Senior Low Back Overhaul"). Someone who wants help with a shoulder may hesitate at checkout. Adding one line to the top of each description, such as "Holiday bonus through December 19: use your 6 sessions for any body area that needs a little TLC," keeps the offer consistent from post to purchase. Ask buyers which area they want to focus on when they book their first session.
 3. **The deadline.** I read "the next month starting today" as November 19 through December 19, 2026. If you meant through Christmas or the end of the year, change the date in the 🎄 line of each post. The posts set December 19 as the deadline for choosing another body area. They don't say when the six sessions must be used; decide that and add it if it matters. After December 19, delete the 🎄 line from any post you reuse.
-4. **Senior pricing.** Acuity lists the Senior 6-Pack at $500, which is $100 less than the regular 6-Pack, so the posts say "Seniors save an extra $100." The Senior description lists its value as $750, so the posts don't quote a value for it. Neither package states an age cutoff; if you have one (for example, 65+), add it to the 🌺 line. I assumed the holiday body-area swap applies to the Senior 6-Pack too.
-5. **The posts are written to be boost-safe.** Meta's ad rules prohibit copy that "asserts or implies personal attributes," including age and "physical or mental health (including medical conditions)." Their own examples: "Meet seniors" and "New diabetes treatment available" are allowed, while "Meet other seniors" and "Do you have diabetes?" are prohibited. The Senior line follows the allowed pattern ("Seniors save an extra $100"). If you edit the posts, avoid lines like "Are you a senior?", "Is your back killing you?" or "Suffering from back pain?"
+4. **Senior pricing.** Acuity lists the Senior 6-Pack at $500, which is $100 less than the regular 6-Pack, so the posts say "Seniors 65+ save an extra $100." The 65+ age comes from your schedule page, which says "All clients age 65+ receive a $25 discount on in-office services longer than 30 minutes" with coupon code KUPUNA. The posts leave out the KUPUNA code because the page doesn't say whether it also applies to packages; if it stacks with the Senior 6-Pack, that's worth adding. The Senior description lists its value as $750, so the posts don't quote a value for it. I assumed the holiday body-area swap applies to the Senior 6-Pack too.
+5. **The posts are written to be boost-safe.** Meta's ad rules prohibit copy that "asserts or implies personal attributes," including age and "physical or mental health (including medical conditions)." Their own examples: "Meet seniors" and "New diabetes treatment available" are allowed, while "Meet other seniors" and "Do you have diabetes?" are prohibited. The Senior line follows the allowed pattern ("Seniors 65+ save an extra $100"). If you edit the posts, avoid lines like "Are you a senior?", "Is your back killing you?" or "Suffering from back pain?"
 6. **Your Acuity checkout already has a Meta Pixel installed** (it appears in the page code). If you boost these posts, you can track 6-Pack purchases as conversions and retarget people who clicked but did not buy.
 7. **Collect a low back testimonial.** The written testimonials on your site cover other concerns, so the posts quote them as general praise. One short quote from a 6-Pack graduate about their low back would strengthen every post. Your testimonials page also lists a video titled "Have back pain and headaches? Physical Therapy with Therapeutic Connection can help you!", which would make a strong Reel to share during the series.
 8. **Years of experience.** Your website says "35+ years," while your style guide and Substack say "30+." The posts use 35+, matching the website. Pick one figure for all materials.
@@ -302,7 +302,7 @@ If Post 2 goes up after Thanksgiving, change "your sixth lands right before New 
 ## Sources
 
 - Therapeutic Connection Acuity package catalog (both 6-Pack descriptions, prices and values): https://app.acuityscheduling.com/catalog.php?owner=31159046
-- Therapeutic Connection schedule page (session prices, package links, virtual eligibility): https://www.therapeuticconnection.com/schedule
+- Therapeutic Connection schedule page (session prices, package links, virtual eligibility, 65+ discount): https://www.therapeuticconnection.com/schedule
 - Therapeutic Connection home page ("No referrals needed, ever!", Silan System origin, credentials): https://www.therapeuticconnection.com/
 - Therapeutic Connection low back pain page (Carolyn's quote, SI joint triggers, free 15-minute phone consultation, physician red flags): https://www.therapeuticconnection.com/low-back-pain
 - Therapeutic Connection "Why TCPT & W is different" page ("35+ years," "I test and re-test," "evaluate and re-evaluate"): https://www.therapeuticconnection.com/about
